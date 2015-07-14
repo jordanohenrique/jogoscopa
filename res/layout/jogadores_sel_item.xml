@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/branco">
+
+        <TextView
+            android:id="@+id/txtjogNome"
+            style="@style/textchildjogadores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/txtjogPosicao"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:text="jogador"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <CheckBox
+            android:id="@+id/cxStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txtjogNome"
+            android:layout_alignBottom="@+id/txtjogNome"
+            android:layout_toRightOf="@+id/txtjogPosicao"
+            android:clickable="false"
+            android:editable="false"
+            android:enabled="true"
+            android:focusable="false" />
+
+        <TextView
+            android:id="@+id/txtjogPosicao"
+            style="@style/textchildjogadores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical"
+            android:text="pos"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

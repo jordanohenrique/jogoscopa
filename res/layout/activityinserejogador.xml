@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/edJogNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtFinalSelecao1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        style="@style/textinserejogador">
+
+        <requestFocus />
+    </EditText>
+
+    <Spinner
+        android:id="@+id/spPosicao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtVersos"
+        android:gravity="left" />
+
+    <TextView
+        android:id="@+id/txtFinalSelecao1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtVersos"
+        android:layout_alignParentTop="true"
+        android:text="@string/nome"
+        android:textColor="@color/branco"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        style="@style/textinserejogador" />
+
+    <Spinner
+        android:id="@+id/spSelecao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtFinalSelecao2"
+        android:gravity="left" />
+
+    <TextView
+        android:id="@+id/txtFinalSelecao2"
+        style="@style/textinserejogador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtVersos"
+        android:layout_below="@+id/spPosicao"
+        android:text="@string/selecao"
+        android:textColor="@color/branco"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btGravaJogador"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/cxTitular"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/cxTitular"
+        android:layout_marginRight="33dp"
+        android:text="@string/gravar" />
+
+    <TextView
+        android:id="@+id/txtVersos"
+        style="@style/textinserejogador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edJogNome"
+        android:layout_marginLeft="16dp"
+        android:text="@string/posicao"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <CheckBox
+        android:id="@+id/cxTitular"
+        style="@style/textinserejogador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtFinalSelecao2"
+        android:layout_below="@+id/spSelecao"
+        android:layout_marginTop="17dp"
+        android:text="@string/titular"
+        android:textColor="@color/branco" />
+
+</RelativeLayout>

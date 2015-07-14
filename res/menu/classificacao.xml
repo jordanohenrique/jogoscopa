@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/Classificacao"
+        android:icon="@drawable/ic_action_refresh"
+        android:visible="true"
+        android:showAsAction="ifRoom"/>
+    
+    <item
+        android:id="@+id/Plus"
+        android:icon="@drawable/plus"
+        android:visible="true"
+        android:showAsAction="ifRoom">
+        
+        <menu >
+            
+            <item
+       		android:id="@+id/FechaClassif"
+       		android:title="Fechar Class"
+       		android:visible="true"
+       		android:showAsAction="ifRoom"/>
+            <item
+        	android:id="@+id/Oitavas"
+        	android:title="Oitavas"
+        	android:visible="true"
+        	android:showAsAction="ifRoom"/>
+            
+        </menu>        
+    </item>
+    
+</menu>

@@ -1,0 +1,152 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="AppName" parent="AppBaseTheme">
+        <item name="android:text">@string/app_name</item>
+        <item name="android:textColor">@color/branco</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+    
+    <style name="menuinicialtext" parent="AppBaseTheme"> 
+        <item name="android:textColor">@color/branco</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+  
+    <style name="menuinicialimg" parent="AppBaseTheme"> 
+        <item name="android:width">55dp</item>
+        <item name="android:height">41dp</item>
+    </style>
+    
+    <style name="bordaTextView">
+        <item name="android:background">@drawable/layout_bordas</item>
+    </style>
+    
+    <style name="buttonStyle" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/selector</item>
+        <item name="android:textColor">@color/branco</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="buttonStyleLarge" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/selector</item>
+        <item name="android:textColor">@color/branco</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="buttonStyleXLarge" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/selector</item>
+        <item name="android:textColor">@color/branco</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="textclassificacao" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    
+    <style name="textchildjogadores" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+    
+    <style name="textchildgrupos" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+    
+    <style name="textgrupos" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    
+    <style name="textfinal" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/branco</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="textinserejogador" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    
+    <!-- Activity Oitavas -->
+    <style name="textlistOitavas" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    
+    <style name="textLocalJogos" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:background">@color/branco</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    
+    <!-- Rodadas Activity -->
+    <style name="Textview" parent="AppBaseTheme"> 
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="TextviewTitulo" parent="AppBaseTheme"> 
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    
+    <!-- Activity SemiFinal -->
+    <style name="textSemiFinal" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">21sp</item>
+    </style>
+    
+    <!-- List_Jogadores -->
+    <style name="TextviewTituloListJogadores" parent="AppBaseTheme"> 
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    
+   <!-- Estadios -->
+   
+   	<style name="TextviewEstadios" parent="AppBaseTheme"> 
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+    
+   	<style name="TextviewEstadios_1" parent="AppBaseTheme"> 
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    
+   	<style name="TextviewEstadiosList" parent="AppBaseTheme"> 
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+</resources>

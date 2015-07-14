@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <item
+        android:id="@+id/Atualiza"
+        android:icon="@drawable/ic_action_refresh"
+        android:visible="true"
+        android:showAsAction="ifRoom|withText"/>
+
+</menu>

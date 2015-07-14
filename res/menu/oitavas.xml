@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/Atualizar"
+        android:icon="@drawable/ic_action_refresh"
+        android:visible="true"
+        android:showAsAction="ifRoom|withText"/>
+    
+    <item
+        android:id="@+id/Next"
+        android:title="@string/title_activity_Quartas"
+        android:icon="@drawable/next"
+        android:visible="true"
+        android:showAsAction="ifRoom|withText"/>
+
+</menu>

@@ -1,0 +1,706 @@
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:id="@android:id/tabhost">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/rodadas_tab_height"
+                android:background="@color/blue" >
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gramado">
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:text="1º Rodada"
+                    android:background="@color/transparente">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@color/blue" >
+
+                        <TextView
+                            android:id="@+id/text1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Primeira Rodada"
+                            android:gravity="center"
+                            style="@style/TextviewTitulo"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    </LinearLayout>
+
+                    <View
+    					android:layout_width="fill_parent"
+    					android:layout_height="2dp"
+    					android:layout_marginTop="@dimen/rodadas_mgTop"
+   						android:background="@color/cinzamedio"/>
+                    
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/rodadas_mgTop"
+                        android:background="@color/yellowlight">
+
+                        <TextView
+                            android:id="@+id/selecao1"
+                            style="@style/Textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:paddingLeft="3dp"
+                            android:text="TEX"
+                            android:layout_marginRight="10dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <ImageView
+                            android:id="@+id/image1"
+                            android:layout_width="@dimen/rodadas_img_width"
+                            android:layout_height="@dimen/rodadas_img_height"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/brasil" />
+
+                        <EditText
+                            android:id="@+id/edtselecao1"
+                            style="@style/Textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="4"
+                            android:gravity="center"
+                            android:inputType="number" >
+
+                            <requestFocus />
+                        </EditText>
+
+                        <TextView
+                            android:id="@+id/text2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="X"
+                            android:textStyle="bold"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            style="@style/Textview"/>
+
+                        <EditText
+                            android:id="@+id/edtselecao2"
+                            style="@style/Textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="4"
+                            android:gravity="center"
+                            android:inputType="number" />
+                        
+                        <ImageView
+                            android:id="@+id/image2"
+                            android:layout_width="@dimen/rodadas_img_width"
+                            android:layout_height="@dimen/rodadas_img_height"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/brasil" />
+                        
+                        <TextView
+                            android:id="@+id/selecao2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="TEX"
+                            android:layout_marginLeft="10dp"
+                            android:paddingRight="2dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            style="@style/Textview"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/localjogo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TextView"
+                            style="@style/textLocalJogos"/>
+
+                    </LinearLayout>
+
+                    <View
+    					android:layout_width="fill_parent"
+    					android:layout_height="2dp"
+    					android:layout_marginTop="@dimen/rodadas_mgTop"
+   						android:background="@color/cinzamedio"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/rodadas_mgTop"
+                        android:background="@color/yellowlight">
+
+                        <TextView
+                            android:id="@+id/selecao3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="TEX"
+                            android:layout_marginRight="10dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:paddingLeft="3dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            style="@style/Textview"/>
+
+                        <ImageView
+                            android:id="@+id/image3"
+                            android:layout_width="@dimen/rodadas_img_width"
+                            android:layout_height="@dimen/rodadas_img_height"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/brasil" />
+
+                        <EditText
+                            android:id="@+id/edtselecao3"
+                            style="@style/Textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="4"
+                            android:gravity="center"
+                            android:inputType="number" />
+
+                        <TextView
+                            android:id="@+id/text4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="X"
+                            android:textStyle="bold"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            style="@style/Textview"/>
+
+                        <EditText
+                            android:id="@+id/edtselecao4"
+                            style="@style/Textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="4"
+                            android:gravity="center"
+                            android:inputType="number" />
+                        
+                        <ImageView
+                            android:id="@+id/image4"
+                            android:layout_width="@dimen/rodadas_img_width"
+                            android:layout_height="@dimen/rodadas_img_height"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/brasil" />
+                        
+                        <TextView
+                            android:id="@+id/selecao4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="TEX"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:paddingRight="2dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            style="@style/Textview"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center" >
+
+                        <TextView
+                            android:id="@+id/localjogo2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TextView"
+                            style="@style/textLocalJogos"/>
+                    </LinearLayout>
+
+					<View
+    					android:layout_width="fill_parent"
+    					android:layout_height="2dp"
+    					android:layout_marginTop="@dimen/rodadas_mgTop"
+   						android:background="@color/cinzamedio"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:text="2º Rodada"
+                    android:background="@color/transparente">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@color/blue" >
+
+                        <TextView
+                            android:id="@+id/text6"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Segunda Rodada"
+                            android:gravity="center"
+                            style="@style/TextviewTitulo"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    </LinearLayout>
+                    
+
+                    <View
+    					android:layout_width="fill_parent"
+    					android:layout_height="2dp"
+    					android:layout_marginTop="@dimen/rodadas_mgTop"
+   						android:background="@color/cinzamedio"/>
+                    
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/rodadas_mgTop"
+                        android:background="@color/yellowlight">
+
+                        <TextView
+                            android:id="@+id/selecao5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="TEX"
+                            android:layout_marginRight="10dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:paddingLeft="3dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            style="@style/Textview"/>
+
+                        <ImageView
+                            android:id="@+id/image5"
+                            android:layout_width="@dimen/rodadas_img_width"
+                            android:layout_height="@dimen/rodadas_img_height"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:src="@drawable/brasil" />
+
+                        <EditText
+                            android:id="@+id/edtselecao5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="4"
+                            android:gravity="center"
+                            android:inputType="number" >
+
+                            <requestFocus />
+                        </EditText>
+                        
+                        <TextView
+                            android:id="@+id/text7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="X"
+                            android:textStyle="bold"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            style="@style/Textview"/>
+                        
+                        <EditText
+                            android:id="@+id/edtselecao6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="4"
+                            android:gravity="center"
+                            android:inputType="number" />
+                        
+                        <ImageView
+                            android:id="@+id/image6"
+                            android:layout_width="@dimen/rodadas_img_width"
+                            android:layout_height="@dimen/rodadas_img_height"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:src="@drawable/brasil" />
+                        
+                        <TextView
+                            android:id="@+id/selecao6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="TEX"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:paddingLeft="2dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            style="@style/Textview"/>
+
+                    </LinearLayout>
+                    
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/localjogo3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TextView"
+                            style="@style/textLocalJogos" />
+
+                    </LinearLayout>
+                    
+                    <View
+    					android:layout_width="fill_parent"
+    					android:layout_height="2dp"
+    					android:layout_marginTop="@dimen/rodadas_mgTop"
+   						android:background="@color/cinzamedio"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/rodadas_mgTop"
+                        android:background="@color/yellowlight">
+
+                        <TextView
+                            android:id="@+id/selecao7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="TEX"
+                            android:layout_marginRight="10dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:paddingLeft="3dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            style="@style/Textview"/>
+
+                        <ImageView
+                            android:id="@+id/image7"
+                            android:layout_width="@dimen/rodadas_img_width"
+                            android:layout_height="@dimen/rodadas_img_height"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:src="@drawable/brasil" />
+                        
+                        <EditText
+                            android:id="@+id/edtselecao7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="4"
+                            android:gravity="center"
+                            android:inputType="number" >
+
+                            <requestFocus />
+                        </EditText>
+
+                        <TextView
+                            android:id="@+id/text8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="X"
+                            android:textStyle="bold"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            style="@style/Textview"/>
+                        
+                        <EditText
+                            android:id="@+id/edtselecao8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="4"
+                            android:gravity="center"
+                            android:inputType="number" />
+                        
+                        <ImageView
+                            android:id="@+id/image8"
+                            android:layout_width="@dimen/rodadas_img_width"
+                            android:layout_height="@dimen/rodadas_img_height"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:src="@drawable/brasil" />
+                        
+                        <TextView
+                            android:id="@+id/selecao8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="TEX"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:paddingLeft="2dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            style="@style/Textview"/>
+
+                    </LinearLayout>
+                    
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/localjogo4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TextView"
+                            style="@style/textLocalJogos"/>
+
+                    </LinearLayout>
+                    
+					<View
+    					android:layout_width="fill_parent"
+    					android:layout_height="2dp"
+    					android:layout_marginTop="@dimen/rodadas_mgTop"
+   						android:background="@color/cinzamedio"/>
+
+                </LinearLayout>
+                    
+
+                <LinearLayout
+                    android:id="@+id/tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:text="3º Rodada" 
+                    android:background="@color/transparente">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@color/blue" >
+
+                        <TextView
+                            android:id="@+id/text9"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Terceira Rodada"
+                    		style="@style/TextviewTitulo"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    </LinearLayout>
+
+                    <View
+    					android:layout_width="fill_parent"
+    					android:layout_height="2dp"
+    					android:layout_marginTop="@dimen/rodadas_mgTop"
+   						android:background="@color/cinzamedio"/>
+                    
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/rodadas_mgTop"
+                        android:background="@color/yellowlight">
+
+                        <TextView
+                            android:id="@+id/selecao9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="TEX"
+                            android:layout_marginRight="10dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:paddingLeft="3dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            style="@style/Textview"/>
+
+                        <ImageView
+                            android:id="@+id/image9"
+                            android:layout_width="@dimen/rodadas_img_width"
+                            android:layout_height="@dimen/rodadas_img_height"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:src="@drawable/brasil" />
+                        
+                        <EditText
+                            android:id="@+id/edtselecao9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="4"
+                            android:gravity="center"
+                            android:inputType="number" >
+
+                            <requestFocus />
+                        </EditText>
+
+                        <TextView
+                            android:id="@+id/text10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="X"
+                            android:textStyle="bold"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            style="@style/Textview"/>
+                        
+                        <EditText
+                            android:id="@+id/edtselecao10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="4"
+                            android:gravity="center"
+                            android:inputType="number" />
+
+                        
+                        <ImageView
+                            android:id="@+id/image10"
+                            android:layout_width="@dimen/rodadas_img_width"
+                            android:layout_height="@dimen/rodadas_img_height"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:src="@drawable/brasil" />
+                        
+                        <TextView
+                            android:id="@+id/selecao10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="TEX"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:paddingLeft="2dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            style="@style/Textview" />
+
+                    </LinearLayout>
+                    
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/localjogo5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TextView"
+                            style="@style/textLocalJogos"/>
+
+                    </LinearLayout>
+                    
+                    <View
+    					android:layout_width="fill_parent"
+    					android:layout_height="2dp"
+    					android:layout_marginTop="@dimen/rodadas_mgTop"
+   						android:background="@color/cinzamedio"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/rodadas_mgTop"
+                        android:background="@color/yellowlight">
+
+                        <TextView
+                            android:id="@+id/selecao11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="TEX"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:paddingLeft="3dp"
+                            android:layout_marginRight="10dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            style="@style/Textview" />
+
+                        <ImageView
+                            android:id="@+id/image11"
+                            android:layout_width="@dimen/rodadas_img_width"
+                            android:layout_height="@dimen/rodadas_img_height"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:src="@drawable/brasil" />
+                        
+                        <EditText
+                            android:id="@+id/edtselecao11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="4"
+                            android:gravity="center"
+                            android:inputType="number" >
+
+                            <requestFocus />
+                        </EditText>
+
+                        <TextView
+                            android:id="@+id/text11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="X"
+                            android:textStyle="bold"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            style="@style/Textview" />
+                        
+                        <EditText
+                            android:id="@+id/edtselecao12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="4"
+                            android:gravity="center"
+                            android:inputType="number" />
+                        
+                        <ImageView
+                            android:id="@+id/image12"
+                            android:layout_width="@dimen/rodadas_img_width"
+                            android:layout_height="@dimen/rodadas_img_height"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:src="@drawable/brasil" />
+                        
+                        <TextView
+                            android:id="@+id/selecao12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="TEX"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:paddingLeft="2dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            style="@style/Textview" />
+
+                    </LinearLayout>
+                    
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/localjogo6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TextView" 
+                            style="@style/textLocalJogos"/>
+
+                    </LinearLayout>
+                    
+					<View
+    					android:layout_width="fill_parent"
+    					android:layout_height="2dp"
+    					android:layout_marginTop="@dimen/rodadas_mgTop"
+   						android:background="@color/cinzamedio"/>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+
+</TabHost>

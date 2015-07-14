@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gramado">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:background="@color/transparente_1">
+
+        <EditText
+            android:id="@+id/edtResulSelecao1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtSemiSel1"
+            android:layout_below="@+id/txtSemiSel1"
+            android:layout_toLeftOf="@+id/txtVersos"
+            android:ems="5"
+            android:gravity="center"
+            android:inputType="number">
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/txtVersos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/edtResulSelecao1"
+            android:layout_centerHorizontal="true"
+            android:text=" X "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            style="@style/textSemiFinal"/>
+
+        <EditText
+            android:id="@+id/edtResulSelecao2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtSemiSel1"
+            android:layout_toLeftOf="@+id/imgSemiSelecao2"
+            android:layout_toRightOf="@+id/txtVersos"
+            android:ems="5"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <View
+            android:id="@+id/View01"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/cinzamedio" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view1"
+            android:layout_marginTop="29dp"
+            android:background="@color/cinzamedio" />
+
+        <EditText
+            android:id="@+id/edtResulSelecao3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/edtResulSelecao1"
+            android:layout_below="@+id/txtSemiSel3"
+            android:layout_marginTop="14dp"
+            android:layout_toLeftOf="@+id/txtVersos"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/edtResulSelecao3"
+            android:layout_alignRight="@+id/txtVersos"
+            android:layout_toRightOf="@+id/edtResulSelecao3"
+            android:text=" X "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            style="@style/textSemiFinal"/>
+
+        <TextView
+            android:id="@+id/txtSemiSel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/edtResulSelecao2"
+            android:layout_below="@+id/edtResulSelecao1"
+            android:gravity="right"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            style="@style/textSemiFinal"
+            android:layout_marginTop="12dp"/>
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/View01"
+            android:layout_marginTop="30dp"
+            android:background="@color/cinzamedio" />
+
+        <ImageView
+            android:id="@+id/imgSemiSelecao1"
+            android:layout_width="@dimen/semifinal_img_width"
+            android:layout_height="@dimen/semifinal_img_height"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view3"
+            android:layout_marginTop="12dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/brasil" />
+
+        <TextView
+            android:id="@+id/txtSemiSel1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/imgSemiSelecao1"
+            android:layout_toRightOf="@+id/imgSemiSelecao1"
+            android:text="Medium Text"
+            android:layout_marginTop="12dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            style="@style/textSemiFinal" />
+
+        <ImageView
+            android:id="@+id/imgSemiSelecao2"
+            android:layout_width="@dimen/semifinal_img_width"
+            android:layout_height="@dimen/semifinal_img_height"
+            android:layout_above="@+id/view1"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/txtVersos"
+            android:scaleType="centerCrop"
+            android:src="@drawable/brasil" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/txtSemiSel2"
+            android:background="@color/cinzamedio" />
+
+        <TextView
+            android:id="@+id/txtSemiSel3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/edtResulSelecao3"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/view2"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            style="@style/textSemiFinal"
+            android:layout_marginTop="12dp"/>
+
+        <ImageView
+            android:id="@+id/imgSemiSelecao3"
+            android:layout_width="@dimen/semifinal_img_width"
+            android:layout_height="@dimen/semifinal_img_height"
+            android:layout_above="@+id/textView6"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/view2"
+            android:layout_toLeftOf="@+id/edtResulSelecao3"
+            android:scaleType="centerCrop"
+            android:src="@drawable/brasil" />
+
+        <TextView
+            android:id="@+id/txtSemiSel4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/edtResulSelecao4"
+            android:layout_toLeftOf="@+id/imgSemiSelecao4"
+            android:gravity="right"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            style="@style/textSemiFinal"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:id="@+id/edtResulSelecao4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView6"
+            android:layout_toLeftOf="@+id/imgSemiSelecao2"
+            android:layout_toRightOf="@+id/textView6"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <ImageView
+            android:id="@+id/imgSemiSelecao4"
+            android:layout_width="@dimen/semifinal_img_width"
+            android:layout_height="@dimen/semifinal_img_height"
+            android:layout_alignBottom="@+id/txtSemiSel4"
+            android:layout_alignLeft="@+id/imgSemiSelecao2"
+            android:layout_alignTop="@+id/textView6"
+            android:scaleType="centerCrop"
+            android:src="@drawable/brasil" />
+
+        <View
+            android:id="@+id/View02"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_alignBottom="@+id/txtSemiSel4"
+            android:layout_alignParentLeft="true"
+            android:background="@color/cinzamedio" />
+
+        <TextView
+            android:id="@+id/txtLocalSemi1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/view1"
+            android:gravity="center"
+            android:text="TextView"
+            style="@style/textLocalJogos"/>
+
+        <TextView
+            android:id="@+id/txtLocalSemi2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/View02"
+            android:gravity="center"
+            android:text="TextView"
+            style="@style/textLocalJogos" />
+
+        <View
+            android:id="@+id/View5"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/txtLocalSemi2"
+            android:layout_marginTop="14dp"
+            android:background="@color/cinzamedio" />
+
+        <Button
+            android:id="@+id/btSemiGravar"
+            style="@style/textfinal"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/semifinal_button"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/View5"
+            android:background="@drawable/selector"
+            android:text="@string/gravar"
+            android:textColor="@color/branco"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</ScrollView>

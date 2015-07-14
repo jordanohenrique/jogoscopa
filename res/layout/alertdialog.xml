@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtDialog1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Medium"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txtDialog2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Medium"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/edtDialogPlacar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/txtDialog2"
+        android:layout_toRightOf="@+id/txtSemiSel1"
+        android:ems="5"
+        android:text="0"
+        android:gravity="center"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edtDialogPlacar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/txtSemiSel1"
+        android:layout_toRightOf="@+id/txtDialog1"
+        android:ems="5"
+        android:text="0"
+        android:gravity="center"
+        android:inputType="number" >
+        
+      <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtSemiSel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edtDialogPlacar2"
+        android:layout_alignBottom="@+id/edtDialogPlacar2"
+        android:layout_centerHorizontal="true"
+        android:text="  X  " 
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btDialogGravar"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edtDialogPlacar1"
+        android:layout_alignRight="@+id/edtDialogPlacar2"
+        android:layout_below="@+id/edtDialogPlacar2"
+        android:layout_marginTop="16dp"
+        android:text="@string/gravar" />
+  
+</RelativeLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/txtVersos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtFinalSelecao1"
+        android:layout_centerHorizontal="true"
+        android:text="  X  "
+        style="@style/textlistOitavas"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txtOitResultado1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txtVersos"
+        android:layout_toLeftOf="@+id/txtVersos"
+        android:text="0"
+        style="@style/bordaTextView"
+        android:ems="2"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/txtOitResultado2"
+        style="@style/bordaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtOitResultado1"
+        android:layout_below="@+id/txtFinalSelecao1"
+        android:layout_toRightOf="@+id/txtVersos"
+        android:ems="2"
+        android:gravity="center"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/txtlocalOit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imgSelOitavas2"
+        android:gravity="center"
+        android:textColor="@color/preto"
+        android:text="TextView"
+        style="@style/textLocalJogos"/>
+
+    <View
+        android:id="@+id/View01"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_alignBottom="@+id/imgSelOitavas2"
+        android:layout_alignParentLeft="true"
+        android:background="@color/cinzamedio" />
+
+    <View
+        android:id="@+id/View5"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_alignBottom="@+id/txtlocalOit"
+        android:layout_alignParentLeft="true"
+        android:background="@color/cinzamedio" />
+
+    <TextView
+        android:id="@+id/txtFinalSelecao1"
+        style="@style/textlistOitavas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imgSelOitavas1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="85dp"
+        android:background="@android:color/transparent"
+        android:gravity="left|center"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txtFinalSelecao2"
+        style="@style/textlistOitavas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/imgSelOitavas2"
+        android:layout_below="@+id/txtOitResultado1"
+        android:layout_marginRight="84dp"
+        android:background="@android:color/transparent"
+        android:gravity="right|center"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/imgSelOitavas2"
+        android:layout_width="@dimen/oitavs_img_width"
+        android:layout_height="@dimen/oitavs_img_height"
+        android:layout_alignBottom="@+id/txtFinalSelecao2"
+        android:layout_marginLeft="198dp"
+        android:layout_toRightOf="@+id/txtOitResultado2"
+        android:src="@drawable/brasil" />
+
+    <ImageView
+        android:id="@+id/imgSelOitavas1"
+        android:layout_width="@dimen/oitavs_img_width"
+        android:layout_height="@dimen/oitavs_img_height"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="199dp"
+        android:layout_toLeftOf="@+id/txtOitResultado1"
+        android:src="@drawable/brasil" />
+
+</RelativeLayout>

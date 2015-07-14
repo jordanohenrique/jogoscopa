@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/selbandeira"
+        android:layout_width="@dimen/img_width_grupos"
+        android:layout_height="@dimen/img_height_grupos"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/selNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/selbandeira"
+        android:layout_alignParentTop="true"
+        android:text="Medium Text"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"
+        android:textColor="@color/preto"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        style="@style/textchildgrupos"/>
+
+</RelativeLayout>

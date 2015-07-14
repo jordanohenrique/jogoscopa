@@ -1,0 +1,209 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="principal_width">95dp</dimen>
+    <dimen name="principal_height">75dp</dimen>
+    <dimen name="button_principal">72dp</dimen>
+    <dimen name="principal_imgmargtop">30dp</dimen>
+    <dimen name="principal_imagewith">75dp</dimen>
+    <dimen name="principal_imageheight">43dp</dimen>
+    <dimen name="principal_bt_mtop">15dp</dimen>
+    <dimen name="principal_bt_mleft">30dp</dimen>
+    <dimen name="principal_bt_mright">10dp</dimen>
+    <dimen name="principal_bt_mbotton">30dp</dimen>
+    <dimen name="principal_linear_mtop">300dp</dimen>
+    <dimen name="principal_linear_mbotton">30dp</dimen>
+    <dimen name="principal_linear_mleft">390dp</dimen>
+    <dimen name="principal_linear_mrigth">380dp</dimen>
+    <dimen name="principal_linear_botoes">515dp</dimen>
+    
+    
+    <dimen name="image_main_lh">75dp</dimen>
+    <dimen name="image_main_lw">90dp</dimen>
+    <dimen name="button_main_lh">72dp</dimen>
+    <dimen name="image_main_xlh">95dp</dimen>
+    <dimen name="image_main_xlw">110dp</dimen>
+    <dimen name="button_main_xlh">82dp</dimen>
+    
+    <!-- Activity child_classificação -->
+    <dimen name="textview_selclassif">150dp</dimen>
+    <dimen name="textview_txtoitavas">150dp</dimen>
+    <dimen name="textview_jogos">15dp</dimen>
+    <dimen name="textview_vitorias">18dp</dimen>
+    <dimen name="textview_empates">18dp</dimen>
+    <dimen name="textview_derrotas">18dp</dimen>
+    <dimen name="textview_gp">20dp</dimen>
+    <dimen name="textview_gc">20dp</dimen>
+    <dimen name="textview_sg">20dp</dimen> 
+    <dimen name="textview_jogos_1">15dp</dimen>
+    <dimen name="textview_vitorias_1">18dp</dimen>
+    <dimen name="textview_empates_1">19dp</dimen>
+    <dimen name="textview_derrotas_1">18dp</dimen>
+    <dimen name="textview_gp_1">26dp</dimen>
+    <dimen name="textview_gc_1">38dp</dimen>
+    <dimen name="textview_sg_1">40dp</dimen>
+    <!-- ******* final *********-->
+    
+    <!-- Activity child_jogadores -->
+    <dimen name="check_marginright">17dp</dimen>
+    <dimen name="text_jognome_mright">17dp</dimen>
+    <dimen name="text_jognome_mleft">10dp</dimen>
+    <dimen name="text_jogpos_mleft">17dp</dimen>
+    <dimen name="text_jogpos_mright">26dp</dimen>
+    <dimen name="jogadore_mleft_bandeira">70dp</dimen>
+    <dimen name="jogadore_mRight_bandeira">40dp</dimen>
+    <dimen name="jogadore_height">90dp</dimen>
+    <!-- ******* final *********-->
+     
+    <!-- Activity_grupos -->
+    <dimen name="img_width_grupos">90dp</dimen>
+    <dimen name="img_height_grupos">65dp</dimen>
+    <dimen name="text_margintop_grupos">15dp</dimen>
+    <dimen name="grupos_img_linear_width">15dp</dimen>
+    <dimen name="grupos_img_linear_height">95dp</dimen>
+    <!-- ******* final *********-->
+    
+    <!-- Activity_grupos_child -->
+    <dimen name="childgru_img_width">70dp</dimen>
+    <dimen name="childgru_img_height">60dp</dimen>
+    <dimen name="childgru_text_margintop">15dp</dimen>
+    <dimen name="childgru_img_linear_width">15dp</dimen>
+    <dimen name="childgru_img_linear_height">80dp</dimen>
+    <!-- ******* final *********-->
+    
+    <!-- Activity_selecoes_jogadores_item -->
+    <dimen name="img_width_jogador">60dp</dimen>
+    <dimen name="img_height_jogador">45dp</dimen>
+    <dimen name="img_marginleft_jogador">8dp</dimen>
+    <dimen name="text_margintop_jogador">15dp</dimen>
+    <dimen name="text_marginleft_jogador">10dp</dimen>
+    <!-- ******* final *********-->
+    
+    <!-- Activity_semifinal -->
+    <dimen name="semifinal_img_width">105dp</dimen>
+    <dimen name="semifinal_img_height">85dp</dimen>
+    <dimen name="semifinal_img_marginleft">20dp</dimen>
+    <dimen name="semifinal_text_margintop">75dp</dimen>
+    <dimen name="semifinal_text_marginleft">15dp</dimen>
+    <!-- ******* final *********-->
+    
+    <!-- Activity_selecoes -->
+    <dimen name="selecoes_img_width">65dp</dimen>
+
+    <!-- ******* final *********-->
+    
+    <!-- Activity_rodadas -->
+    <dimen name="rodadas_img_width">70dp</dimen>
+    <dimen name="rodadas_img_height">54dp</dimen>
+    <dimen name="rodadas_mgTop">10dp</dimen>
+    <dimen name="rodadas_tab_height">63dp</dimen>
+    <dimen name="rodadas_mgleft">3dp</dimen>
+    <dimen name="rodadas_mgright">3dp</dimen>
+
+    <!-- ******* final *********-->
+    
+    <!-- Activity_quartas -->
+    <dimen name="quartas_img_width">65dp</dimen>
+
+    <!-- ******* final *********-->
+    
+    <!-- Activity_oitavas -->
+    <dimen name="oitavs_img_width">95dp</dimen>
+    <dimen name="oitavs_img_height">85dp</dimen>
+
+    <!-- ******* final *********-->
+    
+    <!-- Activity_main -->
+    <dimen name="main_img_width">65dp</dimen>
+
+    <!-- ******* final *********-->
+    
+    <!-- Activity_listoitavas -->
+    <dimen name="listoitavas_img_width">65dp</dimen>
+
+    <!-- ******* final *********-->
+    
+    <!-- Activity_inserejogadores -->
+    <dimen name="inserejogador_txtposicao_mleft">21dp</dimen>
+    <dimen name="inserejogador_txtposicao_mtop">19dp</dimen>
+    <dimen name="inserejogador_txtnome_mtop">28dp</dimen>
+    <dimen name="inserejogador_check_mbottom">129dp</dimen>
+    <dimen name="inserejogador_bt_mright">36dp</dimen>
+
+    <!-- ******* final *********-->
+    
+    <!-- Activity_final -->
+    <dimen name="final_img_width">95dp</dimen>
+    <dimen name="final_img_width1">70dp</dimen>
+    <dimen name="final_img_height1">55dp</dimen>
+    <dimen name="final_mtop">40dp</dimen>
+    <dimen name="final_mleft">40dp</dimen>
+    <dimen name="final_mright">40dp</dimen>
+    <dimen name="final_mbotton">40dp</dimen>
+    <dimen name="final_img_width_2">65dp</dimen>
+    <dimen name="final_img_height">80dp</dimen>
+    <dimen name="final_txtoitavas1_mtop">164dp</dimen>
+    <dimen name="final_txtfifa_mtop">15dp</dimen>
+
+
+    <!-- ******* final *********-->
+    
+    <dimen name="activity_5dp">5dp</dimen>
+    <dimen name="activity_10dp">10dp</dimen>
+    <dimen name="activity_15dp">15dp</dimen>
+    <dimen name="activity_20dp">20dp</dimen> 
+    <dimen name="activity_25dp">25dp</dimen>
+    <dimen name="activity_30dp">30dp</dimen>
+    <dimen name="activity_35dp">35dp</dimen>
+    <dimen name="activity_40dp">40dp</dimen> 
+    <dimen name="activity_45dp">45dp</dimen>
+    <dimen name="activity_47dp">47dp</dimen>
+    <dimen name="activity_50dp">50dp</dimen>
+    <dimen name="activity_55dp">55dp</dimen>
+    <dimen name="activity_60dp">60dp</dimen> 
+    <dimen name="activity_65dp">65dp</dimen>
+    <dimen name="activity_70dp">70dp</dimen>
+    <dimen name="activity_75dp">75dp</dimen>
+    <dimen name="activity_80dp">80dp</dimen>
+    <dimen name="activity_85dp">85dp</dimen>
+    <dimen name="activity_90dp">90dp</dimen>
+    <dimen name="activity_95dp">95dp</dimen>
+    <dimen name="activity_100dp">100dp</dimen> 
+    <dimen name="activity_110dp">110dp</dimen>
+    <dimen name="activity_120dp">120dp</dimen>
+    <dimen name="activity_135dp">135dp</dimen>
+    <dimen name="activity_140dp">140dp</dimen> 
+    <dimen name="activity_150dp">150dp</dimen> 
+    <dimen name="activity_160dp">160dp</dimen>
+    <dimen name="activity_170dp">170dp</dimen>
+    <dimen name="activity_180dp">180dp</dimen>
+    <dimen name="activity_190dp">190dp</dimen> 
+    <dimen name="activity_200dp">200dp</dimen> 
+    <dimen name="activity_210dp">210dp</dimen>
+    <dimen name="activity_220dp">220dp</dimen>
+    <dimen name="activity_230dp">230dp</dimen>
+    <dimen name="activity_240dp">240dp</dimen>
+    <dimen name="activity_250dp">250dp</dimen> 
+    <dimen name="activity_270dp">270dp</dimen> 
+    <dimen name="activity_300dp">300dp</dimen>
+    <dimen name="activity_320dp">320dp</dimen>
+    <dimen name="activity_330dp">330dp</dimen>
+    <dimen name="activity_340dp">340dp</dimen>
+    <dimen name="activity_350dp">350dp</dimen>
+    <dimen name="activity_370dp">370dp</dimen>
+    <dimen name="activity_385dp">385dp</dimen> 
+    <dimen name="activity_400dp">400dp</dimen>
+    <dimen name="activity_430dp">430dp</dimen>
+    <dimen name="activity_450dp">450dp</dimen>
+    <dimen name="activity_470dp">470dp</dimen> 
+    <dimen name="activity_500dp">500dp</dimen> 
+    <dimen name="activity_520dp">520dp</dimen>
+    <dimen name="activity_540dp">540dp</dimen>
+    <dimen name="activity_560dp">560dp</dimen>
+    <dimen name="activity_580dp">580dp</dimen>
+    <dimen name="activity_600dp">600dp</dimen> 
+
+</resources>

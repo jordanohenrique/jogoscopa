@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/branco"
+    tools:context=".JogadoresActivity">
+    
+    <LinearLayout
+        android:id="@+id/linearjogadores"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/grupos_img_linear_height"
+        android:orientation="vertical"
+        android:background="@drawable/copa2014">
+        
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/expListJogadores"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/branco"
+        tools:listitem="@android:layout/simple_list_item_2" >
+
+    </ExpandableListView>
+    
+</LinearLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible" >
+
+    <ImageView
+        android:id="@+id/imgSelOitavas1"
+        android:layout_width="@dimen/final_img_width"
+        android:layout_height="@dimen/final_img_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/trofeucopa" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/final_mleft"
+        android:layout_marginTop="@dimen/final_mtop"
+        android:layout_marginRight="@dimen/final_mright"
+        android:layout_marginBottom="@dimen/final_mbotton"
+        android:background="@color/transparente" >
+
+        <EditText
+            android:id="@+id/edtFinalPlacar1"
+            style="@style/Textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtFinalSelecao1"
+            android:layout_centerHorizontal="true"
+            android:background="@color/branco"
+            android:ems="5"
+            android:gravity="center"
+            android:inputType="numberSigned" />
+
+        <EditText
+            android:id="@+id/edtFinalPlacar2"
+            style="@style/Textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtVersos"
+            android:layout_alignRight="@+id/edtFinalPlacar1"
+            android:layout_below="@+id/txtVersos"
+            android:background="@color/branco"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="numberSigned" />
+
+        <TextView
+            android:id="@+id/txtFinalSelecao2"
+            style="@style/textfinal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/edtFinalPlacar2"
+            android:gravity="center"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/txtVersos"
+            style="@style/textfinal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/edtFinalPlacar1"
+            android:layout_alignRight="@+id/edtFinalPlacar1"
+            android:layout_below="@+id/edtFinalPlacar1"
+            android:gravity="center"
+            android:text="X"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/txtSemiSel3"
+            style="@style/textfinal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/TextFifa"
+            android:gravity="center"
+            android:text="@string/finalcopa"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/txtSemiSel4"
+            style="@style/textfinal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtSemiSel3"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="FINAL"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/txtFinalSelecao1"
+            style="@style/textfinal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/imgFinalSelecao1"
+            android:gravity="center"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/imgFinalSelecao2"
+            android:layout_width="@dimen/final_img_width"
+            android:layout_height="@dimen/final_img_height"
+            android:layout_below="@+id/txtFinalSelecao2"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/brasil" />
+
+        <ImageView
+            android:id="@+id/imgFinalSelecao1"
+            android:layout_width="@dimen/final_img_width"
+            android:layout_height="@dimen/final_img_height"
+            android:layout_alignLeft="@+id/imgFinalSelecao2"
+            android:layout_below="@+id/txtSemiSel4"
+            android:scaleType="centerCrop"
+            android:src="@drawable/brasil" />
+
+        <TextView
+            android:id="@+id/TextFifa"
+            style="@style/textfinal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="68dp"
+            android:gravity="center"
+            android:text="FIFA"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

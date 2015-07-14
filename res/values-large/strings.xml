@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">COPA DO MUNDO - 2014</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <color name="cinzaclaro">#BEBEBE</color>
+    <color name="cinza">#CCCCCC</color>
+    <color name="transparente">#8CCCFFFF</color>
+    <color name="transparente_1">#9CCCFFFF</color>
+    <color name="azure">#C1CDCD</color>
+    <color name="cinzalight">#D3D3D3</color>
+    <color name="branco">#FFFFFF</color>
+    <color name="preto">#000000</color>
+    <color name="cinzaescuro">#363636</color>
+    <color name="cinzamedio">#4F4F4F</color>
+    <color name="lemon">#8B8970</color>
+    <color name="orange">#FF7F00</color>
+    <color name="green">#00CC00</color>
+    <color name="greenlight">#66FF99</color>
+    <color name="yellow">#FFCC00</color>
+    <color name="yellowlight">#FFFF99</color>
+    <color name="blue">#007FFF</color>
+    <color name="bluelight">#33CCFF</color>
+    <color name="silver">#E6E8FA</color>
+    <color name="red">#FF0000</color>
+    <color name="orange2">#FFA500</color>
+    <color name="orangelight_1">#FAAC58</color>
+    <color name="yellowlight_1">#F7FE2E</color>
+    <color name="bluelight_1">#2E9AFE</color>
+    <color name="greenlight_1">#64FE2E</color>
+    <color name="grey_1">#A4A4A4</color>
+    <color name="wheat_1">#CDBA96</color>
+    
+
+    <string name="title_activity_grupos">GRUPOS</string>
+    <string name="title_activity_rodadas">RODADAS</string>
+    <string name="title_activity_selecoes">SELEÇÕES</string>
+    <string name="title_activity_jogadores">SEL > JOGADORES</string>
+    <string name="title_activity_jogador">JOGADOR</string>
+    <string name="title_activity_expand">ExpandActivity</string>
+    <string name="title_activity_Oitavas">OITAVAS</string>
+    <string name="title_activity_Quartas">QUARTAS</string>
+    <string name="title_activity_Semi">SEMI</string>
+    <string name="title_activity_Final">FINAL</string>
+    <string name="grupos">GRUPOS </string>
+    <string name="title_activity_classificacao">CLASSIFICAÇÃO</string>
+    <string name="jogos">J</string>
+    <string name="vitorias">V</string>
+    <string name="emprates">E</string>
+    <string name="derrotas">D</string>
+    <string name="golspro">GP</string>
+    <string name="golscontra">GC</string>
+    <string name="saldogols">SG</string>
+    <string name="classificacao">"        CLASSIFICAÇÃO       "</string>
+    <string name="selecjogadores">" SELEÇÕES/JOGADORES "</string>
+    <string name="nome">Nome:</string>
+    <string name="posicao">Posição:</string>
+    <string name="titular">Titular</string>
+
+    <string-array name="posicao">
+        <item>Goleiro</item>
+        <item>Zagueiro</item>
+        <item>Lateral</item>
+        <item>Meio-Campo</item>
+        <item>Atacante</item>
+        <item>Técnico</item>
+    </string-array>
+
+    <string name="gravar">Gravar</string>
+    <string name="selecao">Seleção</string>
+    <string name="finalcopa">COPA DO MUNDO 2014</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

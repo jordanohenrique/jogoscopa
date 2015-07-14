@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.copa.jogoscopa"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:maxSdkVersion="15"
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/worldcup"
+        android:label="@style/AppName"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.copa.view.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.copa.view.GruposActivity"
+            android:label="@string/title_activity_grupos" >
+        </activity>
+        <activity
+            android:name="com.copa.view.RodadasActivity"
+            android:label="@string/title_activity_rodadas" >
+        </activity>
+        <activity
+            android:name="com.copa.view.SelecoesActivity"
+            android:label="@string/title_activity_selecoes" >
+        </activity>
+        <activity
+            android:name="com.copa.view.ClassificacaoActivity"
+            android:label="@string/title_activity_classificacao" >
+        </activity>
+        <activity
+            android:name="com.copa.view.JogadoresActivity"
+            android:label="@string/title_activity_jogadores" >
+        </activity>
+        <activity
+            android:name="com.copa.view.InserirJogador"
+            android:label="Jogador"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.copa.view.OitavasActivity"
+            android:label="@string/title_activity_Oitavas" >
+        </activity>
+        <activity
+            android:name="com.copa.view.QuartasActivity"
+            android:label="@string/title_activity_Quartas" >
+        </activity>
+        <activity
+            android:name="com.copa.view.SemiFinalActivity"
+            android:label="@string/title_activity_Semi" >
+        </activity>
+        <activity
+            android:name="com.copa.view.FinalActivity"
+            android:label="@string/title_activity_Final" >
+        </activity>
+        <activity
+            android:name="com.copa.view.OitavasDialog"
+            android:label="INSIRA O RESULTADO"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.copa.view.EstadiosActivity"
+            android:label="@string/title_activity_estadios" >
+        </activity>
+    </application>
+
+</manifest>

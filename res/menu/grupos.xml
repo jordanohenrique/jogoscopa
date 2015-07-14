@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+        <item android:id="@+id/Jogos" android:showAsAction="ifRoom" android:title="JOGOS" android:visible="true" /><item
+            android:id="@+id/Estadios"
+            android:showAsAction="ifRoom"
+            android:title="ESTADIOS"
+            android:visible="true"/>
+        
+        
+
+</menu>

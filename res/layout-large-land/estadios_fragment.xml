@@ -1,0 +1,138 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/estadios_img_width"
+        android:layout_height="@dimen/estadios_img_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/estadios_mleft"
+        android:layout_marginRight="@dimen/estadios_mright"
+        android:layout_marginTop="@dimen/estadios_mtop"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mineirao" />
+
+    <TextView
+        android:id="@+id/txtEstApelido"
+        style="@style/TextviewEstadios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/image"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/image"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txtEstEndereco"
+        style="@style/TextviewEstadios_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginRight="30dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtEstNome"
+        style="@style/TextviewEstadios_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/view2"
+        android:layout_alignLeft="@+id/txtEstApelido"
+        android:layout_alignRight="@+id/image"
+        android:layout_below="@+id/txtEstApelido"
+        android:text="TextView" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="fill_parent"
+        android:layout_height="4dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:background="@color/cinzamedio" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_toLeftOf="@+id/txtEstEndereco"
+        android:src="@drawable/car" />
+
+    <TextView
+        android:id="@+id/txtEstCapacidade"
+        style="@style/TextviewEstadios_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtEstEndereco"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView2"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_below="@+id/txtEstCidade"
+        android:src="@drawable/locale" />
+
+    <TextView
+        android:id="@+id/txtEstVagas"
+        style="@style/TextviewEstadios_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtEstCapacidade"
+        android:layout_alignRight="@+id/image"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_marginLeft="8dp"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtEstNome"
+        android:layout_below="@+id/view1"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/person" />
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/TextviewEstadios_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtEstCapacidade"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignRight="@+id/txtEstVagas"
+        android:text="@string/capacidade"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="4dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtEstNome"
+        android:background="@color/cinzamedio" />
+
+    <TextView
+        android:id="@+id/txtEstCidade"
+        style="@style/TextviewEstadios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
